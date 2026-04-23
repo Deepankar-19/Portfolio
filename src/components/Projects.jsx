@@ -34,14 +34,14 @@ export default function Projects() {
   const fullStackProjects = [
     {
       title: "Food Preorder System",
-      desc: "FastAPI + React system with OTP authentication. Handled 300+ users with 800+ page views.",
-      tags: ["FastAPI", "React", "Authentication"],
+      desc: "FastAPI + React full stack system. Architected robust REST APIs with OTP authentication, scaling to gracefully handle 300+ active users.",
+      tags: ["FastAPI Backend", "React", "User Auth API", "Scalable System"],
       link: "http://hotchicksonly.vercel.app/"
     },
     {
       title: "Edunova Smart Classroom",
-      desc: "AI chatbot integration, facial recognition attendance, and genetic algorithm-based timetable optimization.",
-      tags: ["Genetic Algorithms", "Facial Recognition", "Full Stack"],
+      desc: "Comprehensive full stack educational platform integrating AI microservices (chatbot, facial recognition) and complex optimization algorithms.",
+      tags: ["Full Stack Architecture", "Facial Recognition", "System Integration"],
       link: "https://edunnova.vercel.app/"
     }
   ];
@@ -82,7 +82,7 @@ export default function Projects() {
 
         <div style={{ marginBottom: '4rem' }}>
             <h3 style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontSize: '1.5rem', marginBottom: '2rem', color: 'var(--text-primary)' }}>
-                Machine Learning Projects 
+                🧠 Machine Learning Systems 
                 <span style={{ fontSize: '0.8rem', padding: '0.25rem 0.75rem', background: 'var(--accent-primary)', color: '#000', borderRadius: '50px', fontWeight: 600 }}>Primary Focus</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -93,8 +93,8 @@ export default function Projects() {
         </div>
 
         <div>
-            <h3 style={{ fontSize: '1.5rem', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-                Full Stack Architecture
+            <h3 style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontSize: '1.5rem', marginBottom: '2rem', color: 'var(--text-primary)' }}>
+                🌐 Full Stack Applications
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {fullStackProjects.map((project) => (

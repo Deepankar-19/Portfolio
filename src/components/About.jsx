@@ -13,13 +13,13 @@ export default function About() {
           
           <div className="glass-panel" style={{ padding: '3rem' }}>
             <h3 style={{ fontSize: '1.8rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>
-              ECE Undergrad turned <span className="text-secondary">Machine Learning Engineer</span>.
+              ECE Undergrad turned <span className="text-secondary">ML Engineer & Full Stack Developer</span>.
             </h3>
             <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)', fontSize: '1.05rem' }}>
-              Currently an undergraduate at SSN College of Engineering, my focus lies squarely at the intersection of deep learning, applied AI systems, and robust software engineering. 
+              Currently an undergraduate at SSN College of Engineering, my focus lies at the intersection of applied machine learning, backend architecture, and robust software engineering. 
             </p>
             <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)', fontSize: '1.05rem' }}>
-              I believe that a model is only as good as the system that serves it. I don't just train models in Jupyter notebooks; I build end-to-end ML pipelines — from handling noisy real-world data to deploying real-time inference APIs.
+              I believe that a model is only as good as the system that serves it. I build machine learning models and integrate them into scalable web applications — handling everything from data to deployed production systems.
             </p>
             
             <div style={{ marginTop: '2.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -27,15 +27,15 @@ export default function About() {
                <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
                      <Brain size={20} className="text-accent" style={{ marginTop: '3px' }} />
-                     <span style={{ color: 'var(--text-secondary)' }}><strong>Applied Deep Learning</strong> focusing on CNNs, LSTMs and signal/vision tasks.</span>
+                     <span style={{ color: 'var(--text-secondary)' }}><strong>Applied Machine Learning</strong> building robust predictive models and deep learning solutions.</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
                      <Terminal size={20} className="text-accent" style={{ marginTop: '3px' }} />
-                     <span style={{ color: 'var(--text-secondary)' }}><strong>System Level Thinking</strong> dealing with resource constraints and performance optimization.</span>
+                     <span style={{ color: 'var(--text-secondary)' }}><strong>Backend Engineering</strong> architecting scalable REST APIs and handling database systems.</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
                      <Server size={20} className="text-accent" style={{ marginTop: '3px' }} />
-                     <span style={{ color: 'var(--text-secondary)' }}><strong>Full-Stack Integration</strong> via FastAPI and React to ship models as products.</span>
+                     <span style={{ color: 'var(--text-secondary)' }}><strong>Production Deployments</strong> integrating models into scalable web applications and real-world tools.</span>
                   </li>
                </ul>
             </div>

@@ -1,22 +1,22 @@
-import { Database, Filter, Layers, BrainCircuit, Activity, Rocket } from 'lucide-react';
+import { Database, BrainCircuit, Server, Code2, Layout, Rocket } from 'lucide-react';
 
 export default function MLWorkflow() {
   const steps = [
-    { icon: <Database size={24} />, title: 'Data', desc: 'Ingestion & formatting' },
-    { icon: <Filter size={24} />, title: 'Preprocessing', desc: 'Cleaning & normalization' },
-    { icon: <Layers size={24} />, title: 'Feature Extraction', desc: 'Signal & pattern ID' },
-    { icon: <BrainCircuit size={24} />, title: 'Model', desc: 'Training & tuning' },
-    { icon: <Activity size={24} />, title: 'Evaluation', desc: 'Validation & metrics' },
-    { icon: <Rocket size={24} />, title: 'Deployment', desc: 'API integration' },
+    { icon: <Database size={24} />, title: 'Data', desc: 'Pipeline & Ingestion' },
+    { icon: <BrainCircuit size={24} />, title: 'Model', desc: 'Training & Evaluation' },
+    { icon: <Server size={24} />, title: 'Backend', desc: 'FastAPI & Databases' },
+    { icon: <Code2 size={24} />, title: 'APIs', desc: 'REST Integrations' },
+    { icon: <Layout size={24} />, title: 'Frontend', desc: 'React User Interfaces' },
+    { icon: <Rocket size={24} />, title: 'Deployment', desc: 'Production Scaling' },
   ];
 
   return (
     <section className="section" style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--border-color)', borderBottom: '1px solid var(--border-color)' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-          <h2 style={{ fontSize: '2rem', fontFamily: 'var(--font-heading)', marginBottom: '1rem' }}>End-to-End ML Pipeline</h2>
+          <h2 style={{ fontSize: '2rem', fontFamily: 'var(--font-heading)', marginBottom: '1rem' }}>End-to-End System Building</h2>
           <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto' }}>
-            My approach to building reliable machine learning systems from scratch.
+            I build complete systems from model development to deployment and user interaction.
           </p>
         </div>
 

@@ -1,31 +1,36 @@
-import { Code2, BrainCircuit, Layout, PenTool, Braces } from 'lucide-react';
+import { Code2, BrainCircuit, Layout, PenTool, Braces, Terminal } from 'lucide-react';
 
 export default function Skills() {
   const customCategories = [
     {
-      title: "Machine Learning & AI",
-      icon: <BrainCircuit size={20} className="text-accent" />,
-      skills: ["Python", "NumPy", "Pandas", "Scikit-Learn", "Deep Learning", "CNNs & LSTMs", "Computer Vision", "Data Analysis"]
+      title: "Programming Languages",
+      icon: <Terminal size={20} className="text-accent" />,
+      skills: ["Python", "C++", "SQL"]
     },
     {
-      title: "Backend & Systems",
-      icon: <Braces size={20} className="text-accent" />,
-      skills: ["FastAPI", "RESTful APIs", "Databases", "System Deployment"]
-    },
-    {
-      title: "Frontend Engineering",
+      title: "Web Development",
       icon: <Layout size={20} className="text-accent" />,
-      skills: ["React", "JavaScript (ES6+)", "Vite", "Responsive Design", "CSS3 / Modern Styling"]
+      skills: ["HTML", "CSS", "React.js", "MongoDB", "REST APIs"]
     },
     {
-      title: "Tools & Infrastructure",
+      title: "Tools & Frameworks",
       icon: <PenTool size={20} className="text-accent" />,
-      skills: ["Git", "GitHub", "Docker", "MATLAB", "Jupyter Notebooks"]
+      skills: ["Git", "Docker", "MATLAB"]
     },
     {
-      title: "CS Fundamentals",
+      title: "Libraries",
+      icon: <Braces size={20} className="text-accent" />,
+      skills: ["NumPy", "Pandas", "scikit-learn"]
+    },
+    {
+      title: "Technical Areas",
+      icon: <BrainCircuit size={20} className="text-accent" />,
+      skills: ["Machine Learning", "Deep Learning", "Computer Vision", "Data Analysis", "Data Visualization"]
+    },
+    {
+      title: "Core CS Concepts",
       icon: <Code2 size={20} className="text-accent" />,
-      skills: ["Data Structures", "Object-Oriented Programming (OOP)", "Algorithm Optimization"]
+      skills: ["Data Structures", "OOP"]
     }
   ];
 

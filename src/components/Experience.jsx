@@ -1,4 +1,4 @@
-import { Trophy, Briefcase, ChevronRight, Zap } from 'lucide-react';
+import { Trophy, Briefcase, ChevronRight, Zap, BookOpen } from 'lucide-react';
 
 export default function Experience() {
   return (
@@ -44,7 +44,7 @@ export default function Experience() {
                     </li>
                     <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
                         <ChevronRight size={16} className="text-secondary" style={{ marginTop: '4px', flexShrink: 0 }} />
-                        <span style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Gained exposure to PLC-based automation (hardware) systems, strengthening my ability to build machine learning solutions that interact deeply with physical constraints.</span>
+                        <span style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Applied system-level thinking to handle strict industrial constraints, paving the way for translating isolated models into reliable backend architectures and production-ready applications.</span>
                     </li>
                 </ul>
               </div>
@@ -81,6 +81,30 @@ export default function Experience() {
                     </div>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Sri Sairam Engineering College</p>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Architected and presented an end-to-end intelligent solution within a highly competitive technical environment.</p>
+                </div>
+            </div>
+
+            {/* Skill-Building */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '3rem', marginBottom: '2rem' }}>
+              <div style={{ padding: '0.75rem', background: 'var(--bg-card)', borderRadius: '12px', color: 'var(--accent-primary)' }}>
+                <BookOpen size={24} />
+              </div>
+              <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)' }}>Skill-Building Activities</h3>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                <div className="glass-panel" style={{ padding: '1.5rem' }}>
+                    <h4 style={{ fontSize: '1.15rem', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
+                        Machine Learning (Andrew Ng, Coursera)
+                    </h4>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Implemented ML algorithms using NumPy and scikit-learn.</p>
+                </div>
+                
+                <div className="glass-panel" style={{ padding: '1.5rem' }}>
+                    <h4 style={{ fontSize: '1.15rem', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
+                        Harvard CS50 Databases with SQL (Ongoing)
+                    </h4>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Learning relational database design, SQL queries, and database management.</p>
                 </div>
             </div>
           </div>
